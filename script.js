@@ -36,7 +36,7 @@ function updateDetails(temp, locationName, time, cond, cloudURL) {
 
 function searchForLocation(e) {
   e.preventDefault();
-  targetLocation = searchBox.value;
+  targetLocation = searchBox.value.toLowerCase();
   getWeather();
 }
 
