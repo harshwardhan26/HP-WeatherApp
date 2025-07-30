@@ -13,7 +13,7 @@ searchBox.addEventListener("input", () => {
   searchBox.value = searchBox.value.toLowerCase();
 });
 
-let targetLocation = "Kolhapur";
+let targetLocation = "Mumbai";
 
 const getWeather = async () => {
   let url = `https://api.weatherapi.com/v1/current.json?key=9075b65e0a114c5197c111026252907&q=${targetLocation}&aqi=no`;
